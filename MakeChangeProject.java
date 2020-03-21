@@ -62,7 +62,7 @@ public class MakeChangeProject {
 				change %= .05;
 			}
 			if (change >+ .01) {
-				penny = Math.round(change/.01);
+				penny = (change+0.005)/.01;
 			}
 		}
 		else if (itemAmount == tenderedAmount) {
