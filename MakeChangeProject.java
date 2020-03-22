@@ -15,7 +15,6 @@ public class MakeChangeProject {
 		tenderedAmount = keyboard.nextDouble();
 
 		makeChange(itemAmount, tenderedAmount);
-
 	}
 
 	public static void makeChange(double itemAmount, double tenderedAmount) {
@@ -72,7 +71,6 @@ public class MakeChangeProject {
 			System.out.println("Error");
 			System.exit(0);
 		}
-
 
 		if (hundred != 0)
 			System.out.println("Hundreds: " + (int) hundred);
