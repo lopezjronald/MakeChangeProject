@@ -68,8 +68,11 @@ public class MakeChangeProject {
 		else if (itemAmount == tenderedAmount) {
 			System.out.println("Tendered the exact amount as item price.");
 		}
-		else
+		else if (itemAmount > tenderedAmount){
 			System.out.println("Error");
+			System.exit(0);
+		}
+
 
 		if (hundred != 0)
 			System.out.println("Hundreds: " + (int) hundred);
